@@ -1,0 +1,57 @@
+body{
+    font-family: "Special Elite", cursive;
+    font-size: 1em;
+}
+#outside{
+    margin: 0 10% 0 10%;
+    background-color:  #f8f3d7;
+    padding: 25px 0;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+}
+form{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    width: 55%;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+fieldset{
+    border: 1px solid lightgreen;
+    margin: 10px;
+}
+legend{
+    font-weight: 700;
+}
+#number{
+    width: 150px;
+}
+.check{
+    font-weight: bold;
+}
+input, textarea{
+    border-color: 1px solid #999;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+button{
+    margin: .5em;
+    float: right;
+    /* right: 2px; */
+    text-transform: capitalize;
+    background-color: tomato;
+    color: white;
+    /* justify-self: center; */
+
+}
+.submitform{
+    display: flex;
+    justify-content: center;
+}
